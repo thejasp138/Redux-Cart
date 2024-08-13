@@ -31,8 +31,8 @@ function Header() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-              <Nav.Link className='btn   me-3' style={{height:'fit-content'}}  >
-                    <input  type="text" style={{height:'fit-content'}}  onChange={(e)=>{dispatch(searchProduct(e.target.value.toLowerCase()))}}  className='form-control' placeholder='Sreching' />
+              <Nav.Link className='boeder me-3' style={{height:'fit-content'}}  >
+                    <input  type="text" style={{height:'fit-content'}}  onChange={(e)=>{dispatch(searchProduct(e.target.value.toLowerCase()))}}  className='form-control' placeholder='Search' />
             </Nav.Link>
 
             <Nav.Link className='btn  border-dark me-3' style={{height:'fit-content'}}>
